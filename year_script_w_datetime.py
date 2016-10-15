@@ -5,7 +5,7 @@ import csv
 from datetime import date, datetime as dt, timedelta as td
 
 #url prefix for querying
-site = 'http://api.wunderground.com/api/8eef6bb176ca2f29/history_'
+site = 'http://api.wunderground.com/api/your_api_key/history_'
 city ='/q/OH/Cleveland.json'
 
 #creating the date range
